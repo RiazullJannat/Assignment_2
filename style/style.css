@@ -1,0 +1,18 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+.josefin-sans{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+RO:wght@100..400&display=swap');
+  .playwrite-ro{
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  /* common class */
+  *{
+    font-family: "Josefin Sans";
+    margin: 0px;
+  }
