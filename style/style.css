@@ -15,4 +15,43 @@
   *{
     font-family: "Josefin Sans";
     margin: 0px;
+    background-color: black;
   }
+  /* Header section */
+  .header{
+    /* border: 3px dotted blue; */
+  }
+  /* navigation */
+
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+    align-items: center;
+    margin-top: 57px;
+
+  }
+  .pag_name{
+    color: rgba(230, 83, 60, 1);
+    font-size: 2.25rem;
+    font-style: italic;
+    
+  }
+  .nav_menu{
+    
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    padding:0;
+  }
+  #home{
+    padding: 8px 20px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+  }
+/* banner section */
