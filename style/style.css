@@ -5,21 +5,27 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+RO:wght@100..400&display=swap');
-  .playwrite-ro{
-    font-family: "Playwrite RO", cursive;
+  @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+  .playwrite-cu{
+    font-family: "Playwrite CU", cursive;
     font-optical-sizing: auto;
     font-style: normal;
   }
+
   /* common class */
   *{
     font-family: "Josefin Sans";
     margin: 0px;
     background-color: black;
   }
+  .body{
+    font-size: 16px;
+  }
   /* Header section */
   .header{
     /* border: 3px dotted blue; */
+    height: 714px;
+    background: linear-gradient(to bottom, rgba(17, 17, 17, 1),rgba(119, 119, 119, 0))
   }
   /* navigation */
 
@@ -28,13 +34,15 @@
     justify-content: space-between;
     margin: 0px 120px;
     align-items: center;
-    margin-top: 57px;
+    padding-top: 57px;
+    background-color: transparent;
 
   }
   .pag_name{
     color: rgba(230, 83, 60, 1);
     font-size: 2.25rem;
     font-style: italic;
+    background-color: transparent;
     
   }
   .nav_menu{
@@ -43,11 +51,13 @@
     border-radius: 20px;
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 47px;
     color: white;
     align-items: center;
     justify-content: left;
     padding:0;
+    background-color: transparent;
+    padding: 4px;
   }
   #home{
     padding: 8px 20px;
@@ -55,3 +65,52 @@
     border-radius: 46px;
   }
 /* banner section */
+.banner, .description, .des_title, .des_subtitle, .banner_img{
+  background-color: transparent;
+
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+}
+.description{
+    width: 599px;
+    /* border: 2px solid red; */
+    color: white;
+    margin: 96px 120px;
+
+}
+.des_title{
+    font-size: 4.875rem;
+  
+}
+.des_subtitle{
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin: 28px 0;
+    
+}
+.buttn1{
+    color: white;
+    padding: 16px 40px;
+    background-color: rgba(230, 83, 60, 1);
+    border: none;
+    border-radius: 42px;
+    font-size: 1.1125rem;
+    font-weight: 600;
+    margin-right: 14px;
+    
+}
+.buttn2{
+    color: white;
+    padding: 15px 40px;
+    border-radius: 42px;
+    font-size: 1.1125rem;
+    font-weight: 600;
+    border: 1px solid ;
+}
+.banner_img{
+  margin-top: 32px;
+  padding-right: 114px;
+}
+/* responsive part */
