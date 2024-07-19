@@ -16,10 +16,13 @@
   *{
     font-family: "Josefin Sans";
     margin: 0px;
-    background-color: black;
+    padding: 0px;
+    box-sizing: border-box;
   }
   .body{
     font-size: 16px;
+    overflow-x: hidden;
+    background-color: black;
   }
   /* Header section */
   .header{
@@ -35,14 +38,14 @@
     margin: 0px 120px;
     align-items: center;
     padding-top: 57px;
-    background-color: transparent;
+    /* background-color: transparent; */
 
   }
   .pag_name{
     color: rgba(230, 83, 60, 1);
     font-size: 2.25rem;
     font-style: italic;
-    background-color: transparent;
+    /* background-color: transparent; */
     
   }
   .nav_menu{
@@ -56,7 +59,7 @@
     align-items: center;
     justify-content: left;
     padding:0;
-    background-color: transparent;
+    /* background-color: transparent; */
     padding: 4px;
   }
   #home{
@@ -65,7 +68,7 @@
     border-radius: 46px;
   }
 /* banner section */
-.banner, .description, .des_title, .des_subtitle, .banner_img{
+.banner, .description, .des_title, .des_subtitle, .banner_img, .banner_img_container{
   background-color: transparent;
 
 }
@@ -90,6 +93,9 @@
     margin: 28px 0;
     
 }
+.button{
+  background-color: transparent;
+}
 .buttn1{
     color: white;
     padding: 16px 40px;
@@ -107,10 +113,38 @@
     border-radius: 42px;
     font-size: 1.1125rem;
     font-weight: 600;
+    background-color: black;
     border: 1px solid ;
 }
 .banner_img{
   margin-top: 32px;
   padding-right: 114px;
+  
+}
+
+.golla{
+  background-color: rgba(230, 83, 60, 1);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.tute{
+  /* border: 2px solid red; */
+  width: 206px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: -120px;
+  left: -60px;
+  background-color: transparent;
+  background
+}
+
+.content{
+  color: white;
+  background-color: transparent;
 }
 /* responsive part */
