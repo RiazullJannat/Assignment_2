@@ -109,7 +109,7 @@
   display: flex;
   
 }
-.buttn1{
+.buttn1, .runbtn{
     color: white;
     padding: 16px 40px;
     background-color: rgba(230, 83, 60, 1);
@@ -222,7 +222,43 @@
 .habits>img{
   border-radius: 50%;
 }
-
+/* Run section */
+.run_section{
+  width: 80vw;
+  height: 50vh;
+  /* border: 2px solid yellow; */
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 35px;
+}
+.run_description{
+  /* border: 2px solid lightgreen; */
+  width: 50vw;
+  align-content: center;
+  padding: 40px;
+  
+}
+.run_title{
+  font-size: 3rem;
+}
+.run_subtitle{
+  margin: 25px 0;
+}
+.runbtn{
+  padding: 15px 73px;
+}
+.run_img{
+  width: 40%;
+  height: 90%;
+  align-content: center;
+  object-fit: cover;
+  border-radius: 40px;
+  padding: 20px;
+  /* border: 2px dotted purple; */
+}
 /* responsive part  tablet*/
 @media screen and (min-width:576.1px) and (max-width:992px){
   /* header section */
@@ -242,6 +278,13 @@
   .habits_container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* run section */
+  .run_section{
+    max-height: 70vh;
+  }
+  .run_title{
+    font-size: 2.5rem;
   }
 }
 /* responsive part for mobile */
@@ -296,6 +339,27 @@
     gap: 20px;
     justify-content: center;
 
+  }
+  /* run section */
+  .run_section{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .run_description{
+    max-width: 287px;
+    margin: 0 auto;
+  }
+  .run_title{
+    font-size: 2rem;
+  }
+  .run_img{
+    margin: 0 auto;
+    width: 234px;
+  }
+  .runbtn{
+    padding: 10px 50px
   }
 }
 
