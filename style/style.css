@@ -259,6 +259,76 @@
   padding: 20px;
   /* border: 2px dotted purple; */
 }
+/* Trainings and Exercise section */
+.trainings_section{
+  /* border: 2px solid violet; */
+  width: 80vw;
+  /* height: 70vh; */
+  margin: 100px auto;
+ 
+}
+.trainings_description{
+  width: 45%;
+  /* border: 3px dotted blue; */
+  color: white;
+}
+.trainings_title{
+  font-size: 3rem;
+}
+.trainings_subtitle{
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+}
+.img_div_container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr;
+
+}
+.img_container{
+  border: 2px solid red;
+  height: 25vh;
+  width: 100%;
+}
+ /* #img_container_1{ 
+  background-image: url(../images/exercise1.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ #img_container_2{ 
+  background-image: url(../images/exercise2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#img_container_3{
+  background-image: url(../images/exercise3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#img_container_4{
+  background-image: url(../images/exercise4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#img_container_5{
+  background-image: url(../images/exercise5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#img_container_6{
+  background-image: url(../images/exercise6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}   */
 /* responsive part  tablet*/
 @media screen and (min-width:576.1px) and (max-width:992px){
   /* header section */
@@ -320,7 +390,7 @@
   }
   .workout_video{
     top: -35.81rem;
-    right: -11.625rem;
+    right: -12.625rem;
 
   }
   .buttn1, .buttn2{
