@@ -109,7 +109,7 @@
   display: flex;
   
 }
-.buttn1, .runbtn{
+.buttn1, .runbtn, .calculate_btn{
     color: white;
     padding: 16px 40px;
     background-color: rgba(230, 83, 60, 1);
@@ -362,6 +362,101 @@
   height: 100%;
   background-color: rgba(0, 71, 255, 0.3);
 }
+/* BMI Calculator section */
+.calculator{
+  color: white;
+  margin-bottom: 50px;
+}
+.calculator_title_subtitle{
+  /* border: 2px solid red; */
+  /* text-align: center; */
+  width: 35%;
+  line-height: 24px;
+  margin: 50px auto;
+}
+.cal_title{
+  margin-bottom: 20px;
+}
+.chart_container{
+  background-color: rgba(34, 34, 34, 1);
+  width: 100%;
+  /* border: 2px solid salmon; */
+  
+}
+.calculator_and_chart{
+  width: 80%;
+  /* border: 2px solid blueviolet; */
+  margin: 0 auto;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.chart{
+  /* border: 2x solid red; */
+}
+table{
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+td, th{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem 3rem;
+}
+td{
+  color: rgba(255, 255, 255, 0.6);
+}
+.calculate{
+  /* border: 2px solid yellow; */
+  /* width: 40%; */
+}
+.options{
+  /* border: 2px dotted aqua; */
+  display: grid;
+  grid-template-areas: 
+  "option1 option2"
+  "option3 option4"
+  "option5 option5";
+  gap: .80rem;
+  margin: 20px 0;
+}
+.option{
+  background-color:rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.option1{
+  grid-area: option1;
+}
+.option2{
+  grid-area: option2;
+}
+.option3{
+  grid-area: option3;
+}
+.option4{
+  grid-area: option4;
+  display: flex;
+  justify-content: space-between;
+}
+.option5{
+  grid-area: option5;
+  display: flex;
+  justify-content: space-between;
+}
+select{
+  background: none;
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+}
+.calculate_btn{
+  padding: 10px 40px;
+}
+.common_title{
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
 /* responsive part  tablet*/
 @media screen and (min-width:576.1px) and (max-width:992px){
   /* header section */
@@ -388,6 +483,14 @@
   }
   .run_title{
     font-size: 2.5rem;
+  }
+  /* Calculator section. */
+  .calculator_and_chart{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .calculator_title_subtitle{
+    width: 70%;
   }
 }
 /* responsive part for mobile */
@@ -484,6 +587,17 @@
   #img_container_3,#img_container_6{
     display: none;
   }
+/* calculator section */
+.calculator_and_chart{
+  flex-direction: column;
+  gap: 40px;
+}
+.calculator_title_subtitle{
+  width: 80%;
+}
+td, th{
+  padding: .8rem 1.5rem;
+}
 }
 
 
