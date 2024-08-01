@@ -376,6 +376,10 @@
 }
 .cal_title{
   margin-bottom: 20px;
+  font-size: 3rem;
+}
+.cal_subtitle{
+  color: rgba(255, 255, 255, 0.5);
 }
 .chart_container{
   background-color: rgba(34, 34, 34, 1);
@@ -456,6 +460,70 @@ select{
   font-weight: bolder;
   font-size: 2rem;
   margin-bottom: 20px;
+}
+
+/* Meet our team section */
+.our_team{
+  width: 80%;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  color: white;
+}
+.team_title_subtitle{
+  text-align: center;
+}
+.team_title{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.team_subtitle{
+  color: rgba(255, 255, 255, 0.5);
+}
+.trainers_container{
+  background-color:rgba(34, 34, 34, 1);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 1.2rem;
+}
+.jerome{
+  background-image: url(../images/trainer1.png);
+}
+.cameron{
+  background-image: url(../images/trainer2.png);
+}
+.darrell{
+  background-image: url(../images/trainer3.png);
+}
+.dianne{
+  background-image: url(../images/trainer4.png);
+}
+.cody{
+  background-image: url(../images/trainer5.png);
+}
+.theresa{
+  background-image: url(../images/trainer6.png);
+}
+.trainer_div{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  border-radius: 1.5rem;
+}
+.trainer_name, .trainer_post{
+  margin: 10px;
+}
+.trainer_post{
+  color: rgba(255, 255, 255, 0.5);
+}
+.trainer_overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  align-content: end;
 }
 /* responsive part  tablet*/
 @media screen and (min-width:576.1px) and (max-width:992px){
@@ -597,6 +665,11 @@ select{
 }
 td, th{
   padding: .8rem 1.5rem;
+}
+
+/* meet our team */
+.trainers_container{
+  grid-template-columns: 1fr;
 }
 }
 
