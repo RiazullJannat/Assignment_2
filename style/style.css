@@ -525,6 +525,59 @@ select{
   background-color: rgba(0, 0, 0, 0.2);
   align-content: end;
 }
+/* Footer section */
+.footer{
+  width: 100%;
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(34, 34, 34, 1);
+}
+.footer_details{
+  width: 80%;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+}
+.div_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 66px 0;
+  /* border: 3px dotted gold; */
+}
+.div_container h1{
+  color: white;
+  margin-bottom: 1rem;
+}
+.div_container p{
+  margin-bottom: .8rem;
+}
+.footer_description{
+  width: 50%;
+  /* border: 2px solid green; */
+}
+.footer_description p{
+  line-height: 26px;
+}
+.get_started{
+  /* border: 2px solid goldenrod; */
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+#fitness{
+  color: rgba(230, 83, 60, 1);
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bolder;
+}
+hr{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#all_rights{
+  padding: 33px 0;
+  text-align: center;
+}
+
+
 /* responsive part  tablet*/
 @media screen and (min-width:576.1px) and (max-width:992px){
   /* header section */
@@ -559,6 +612,17 @@ select{
   }
   .calculator_title_subtitle{
     width: 70%;
+  }
+  /* footer */
+  .div_container{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer_description{
+    width: 70%;
+  }
+  .get_started{
+    width: 80%;
   }
 }
 /* responsive part for mobile */
@@ -670,6 +734,20 @@ td, th{
 /* meet our team */
 .trainers_container{
   grid-template-columns: 1fr;
+}
+/* footer */
+.div_container{
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer_description{
+  width: 70%;
+}
+.get_started{
+  width: 80%;
+}
+.get_started{
+  flex-direction: column;
 }
 }
 
