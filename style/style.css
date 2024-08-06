@@ -924,7 +924,11 @@ hr{
   }
 
   .calculator_title_subtitle{
-    width: 80%;
+    width: 90%;
+  }
+
+  .cal_title{
+    
   }
 
   td, th{
