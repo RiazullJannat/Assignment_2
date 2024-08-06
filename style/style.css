@@ -597,6 +597,63 @@ select{
 }
 /* End of meet our team section. */
 
+/* Workout section */
+/* Featured Workout Section */
+.featured_workout{
+  width: 80vw;
+  background-color: rgba(53, 56, 53, 0.315);
+  backdrop-filter: blur(3px);
+  margin: 50px auto;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.featured_workout h1{
+  font-size: 2rem;
+  padding: 10px;
+  color: rgba(230, 83, 60, 1);
+}
+
+.workout_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px ;
+  /* border: 2px solid tomato; */
+}
+
+.workout_img_div{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.workout_img{
+  height: 40vh;
+}
+
+.workout_details{
+  text-align: left;
+}
+
+.workout_description{
+  margin: 20px 0;
+}
+
+.workout_btn{
+  background-color: rgba(230, 83, 60, 1);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Workout section */
 
 /* Footer section */
 .footer{
@@ -706,6 +763,18 @@ hr{
   }
   /* End of calculator section. */
 
+  /* featured_workout_section */
+  .workout_container{
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+  }
+  
+  .workout_details{
+    text-align: center;
+  }
+
+  /* end of featured workout section. */
 
   /* footer */
   .div_container{
@@ -870,6 +939,22 @@ hr{
   }
   /* End of meet our team section */
 
+/* featured workout section */
+.workout_container{
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+}
+
+.workout_details{
+  text-align: center;
+}
+
+.workout_img{
+  height: 20vh;
+}
+
+/* end of featured workout section. */
 
   /* footer */
   .div_container{
