@@ -115,7 +115,7 @@
   display: flex; 
 }
 
-.buttn1, .runbtn, .calculate_btn{
+.buttn1, .run_btn, .calculate_btn{
     color: white;
     padding: 16px 40px;
     background-color: rgba(230, 83, 60, 1);
@@ -273,7 +273,7 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-.runbtn{
+.run_btn{
   padding: 15px 73px;
 }
 
@@ -285,7 +285,7 @@
   border-radius: 40px;
   padding: 20px;
   object-fit: none;
-  object-position: 75% 38%;
+  object-position: 70% 35%;
 }
 /* End of Run section */
 
@@ -771,6 +771,10 @@ hr{
   .run_title{
     font-size: 2.5rem;
   }
+
+  .run_img{
+    object-position: 65% 30% ;
+  }
   /* end of run section */
 
   /* Calculator section. */
@@ -907,6 +911,10 @@ hr{
 
   .runbtn{
     padding: 10px 50px
+  }
+
+  .run_img{
+    object-fit: cover;
   }
   /* End of run section */
 
